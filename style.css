@@ -1,0 +1,35 @@
+
+.box{
+    border: 1px solid black;
+    height: 200px;
+    width: 150px;
+    background-image: linear-gradient(red,blue);
+    background-image: linear-gradient(to left, red,blue);
+    background-image: linear-gradient(to bottom right,red,blue);
+
+}
+.mydiv{
+    border: 1px solid black;
+    margin: 10px;
+    height: 400px;
+    width: 200px;
+    background-image: radial-gradient(circle, red,blue,yellow);
+    background-image: radial-gradient( red 5%,blue 15%,yellow 80%);
+ 
+
+}
+
+h1{
+    text-shadow: 3px 3px 3px  red ;
+    text-shadow: 3px 3px 3px  red , 5px 5px 5px blue;
+   
+}
+.box2{
+    height: 200px;
+    width: 200px;
+    background-color: aqua;
+    box-shadow: -10px -10px 15px green ,15px 15px 15px brown;
+color: blueviolet;
+
+}
+
