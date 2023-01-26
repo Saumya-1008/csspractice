@@ -32,4 +32,13 @@ h1{
 color: blueviolet;
 
 }
-
+.box3{
+    max-height:100px ;
+    border: 1px solid black;
+    overflow: scroll ;
+}
+.min{
+    margin: 10px;
+    min-height: 100px;
+    border: 1px solid black;
+}
